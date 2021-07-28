@@ -1,0 +1,12 @@
+/*
+    z-index list:
+    mode-switch: 100
+*/
+
+* {
+    margin: 0;
+    /* Able to click on it */
+    /* If it's under an element */
+    /* If we ignore clicks, we can use: pointer-events: none;  */
+    pointer-events: auto;  
+}
