@@ -1,0 +1,21 @@
+.tools {
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(36,36,36);
+    width: 80%;
+    max-width: 600px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+    z-index: 500;
+}
+.tools__icon {
+    height: 24px;
+    width: 24px;
+}
+.tools__icon-selected {
+    filter: invert(78%) sepia(45%) saturate(748%) hue-rotate(338deg) brightness(360%) contrast(96%);
+}
