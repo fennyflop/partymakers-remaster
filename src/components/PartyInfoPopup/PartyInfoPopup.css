@@ -1,0 +1,16 @@
+.info {
+    width: 100%;
+    height: minmax(fit-content, 50%);
+    position: fixed;
+    bottom: 0;
+}
+.info__details {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-row: auto auto;
+    place-items: center;
+}
+.info__icon {
+    width: 16px;
+    height: 16px;
+}
