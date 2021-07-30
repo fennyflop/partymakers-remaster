@@ -11,3 +11,6 @@
     /* If we ignore clicks, we can use: pointer-events: none;  */
     pointer-events: auto;  
 }
+.main {
+    overflow: hidden;
+}

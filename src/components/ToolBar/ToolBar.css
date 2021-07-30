@@ -1,6 +1,6 @@
 .tools {
     position: fixed;
-    bottom: 30px;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(36,36,36);
